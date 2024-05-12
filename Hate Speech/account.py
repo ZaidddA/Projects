@@ -17,7 +17,7 @@ def app():
     if 'signedout' not in st.session_state:  # Check if signedout is already initialized
         st.session_state.signedout = False
 
-    st.title('Welcome to :violet[Pondering] :sunglasses:')
+    st.title('Welcome to :violet[HateSpeech App] :sunglasses:')
 
     # Function for user signup with email and password
     def sign_up_with_email_and_password(email, password, username=None, return_secure_token=True):
